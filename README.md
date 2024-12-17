@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there! 👋
 
 With over 4.10 years of experience specializing in API integration, particularly with technologies like MuleSoft, I have developed strong skills in software development. Along the way, I've earned industry-recognized certifications, including those in MuleSoft Development and Anypoint Platform Architecture. While MuleSoft has been central to my career, my experience extends beyond it. In my current organization, I am also an "Elevated Wings1 Certified - Full-Stack JavaScript Developer (MERN)," a program that deepened my expertise in integration patterns using JavaScript.
 
@@ -6,7 +6,7 @@ Automation has been key to my success, especially in testing, whether it’s uni
 
 
 - 🔭 I’m currently working as MuleSoft Integraiton developer to help customer solve their business problems using MuleSoft Technologies.
-- 💬 Ask me about ...
+- 💬 Ask me about: MuleSoft, Dataweave, JavaScript and Snowflake.
 - 📫 How to reach me: Find me on Linked.com [LinkedIn](https://www.linkedin.com/in/saddam-hossain-611168170/)
 - 😄 Pronouns: He/Him
 
