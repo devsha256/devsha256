@@ -7,7 +7,7 @@ Automation has been key to my success, especially in testing, whether it’s uni
 
 - 🔭 I’m currently working as MuleSoft Integraiton developer to help customer solve their business problems using MuleSoft Technologies.
 - 💬 Ask me about: MuleSoft, Dataweave, JavaScript and Snowflake.
-- 📫 How to reach me: Find me on Linked.com [LinkedIn](https://www.linkedin.com/in/saddam-hossain-611168170/)
+- 📫 How to reach me: Find me on LinkedIn.com [LinkedIn](https://www.linkedin.com/in/saddam-hossain-611168170/)
 - 😄 Pronouns: He/Him
 
 <!--
