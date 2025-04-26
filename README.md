@@ -1,6 +1,6 @@
 ## Hi there! 👋
 
-With over 5.02 years of experience specializing in API integration, particularly with technologies like MuleSoft, I have developed strong skills in software development. Along the way, I've earned industry-recognized certifications, including those in MuleSoft Development and Anypoint Platform Architecture. While MuleSoft has been central to my career, my experience extends beyond it. In my current organization, I am also an "Elevated Wings1 Certified - Full-Stack JavaScript Developer (MERN)," a program that deepened my expertise in integration patterns using JavaScript.
+With over 5.03 years of experience specializing in API integration, particularly with technologies like MuleSoft, I have developed strong skills in software development. Along the way, I've earned industry-recognized certifications, including those in MuleSoft Development and Anypoint Platform Architecture. While MuleSoft has been central to my career, my experience extends beyond it. In my current organization, I am also an "Elevated Wings1 Certified - Full-Stack JavaScript Developer (MERN)," a program that deepened my expertise in integration patterns using JavaScript.
 
 Automation has been key to my success, especially in testing, whether it’s unit or integration testing. I'm familiar with various architectural patterns, including ETL, real-time, and asynchronous Pub/Sub models. If you know of any projects or teams that could benefit from my skills, please feel free to connect!
 
