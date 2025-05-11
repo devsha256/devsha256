@@ -19,13 +19,23 @@ login_payload = json.dumps({
     "password": args.password
 })
 login_headers = {
-    'accept': 'application/json',
-    'appid': '103',
-    'clientid': 'd3skt0p',
-    'content-type': 'application/json',
-    'origin': 'https://www.naukri.com',
-    'referer': 'https://www.naukri.com/',
-    'systemid': 'jobseeker'
+  'accept': 'application/json',
+  'accept-language': 'en-GB,en;q=0.9',
+  'appid': '103',
+  'cache-control': 'no-cache',
+  'clientid': 'd3skt0p',
+  'content-type': 'application/json',
+  'origin': 'https://www.naukri.com',
+  'priority': 'u=1, i',
+  'referer': 'https://www.naukri.com/',
+  'sec-ch-ua': '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"',
+  'sec-ch-ua-mobile': '?0',
+  'sec-ch-ua-platform': '"macOS"',
+  'sec-fetch-dest': 'empty',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-site': 'same-origin',
+  'systemid': 'jobseeker',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36',
 }
 
 login_response = requests.post(login_url, headers=login_headers, data=login_payload)
@@ -75,16 +85,24 @@ update_payload = json.dumps({
 
 update_headers = {
     'accept': 'application/json',
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
     'appid': '105',
     'authorization': f'Bearer {access_token}',
     'clientid': 'd3skt0p',
     'content-type': 'application/json',
     'origin': 'https://www.naukri.com',
-    'referer': 'https://www.naukri.com/mnjuser/profile?action=modalOpen',
-    'user-agent': 'Mozilla/5.0',
+    'priority': 'u=1, i',
+    'referer': 'https://www.naukri.com/mnjuser/profile?id=&altresid&action=modalOpen',
+    'sec-ch-ua': '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"macOS"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    'systemid': 'Naukri',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36',
     'x-http-method-override': 'PUT',
     'x-requested-with': 'XMLHttpRequest',
-    'systemid': 'Naukri',
     'Cookie': cookie_header
 }
 
