@@ -1,0 +1,29 @@
+name: Update Naukri Profile Summary
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+jobs:
+  update-summary:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run update_summary.py with secrets
+        run: |
+          python update_summary.py \
+            --username "${{ secrets.NAUKRI_USERNAME }}" \
+            --password "${{ secrets.NAUKRI_PASSWORD }}" \
+            --profile-id "${{ secrets.PROFILE_SECRET }}"
